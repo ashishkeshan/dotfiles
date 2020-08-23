@@ -27,7 +27,7 @@ zinit light greymd/docker-zsh-completion
 zinit snippet OMZ::plugins/extract/extract.plugin.zsh
 zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
 zinit snippet OMZ::plugins/command-not-found/command-not-found.plugin.zsh
-zinit snippet https://github.com/peterhurford/git-aliases.zsh/blob/master/git-aliases.plugin.zsh
+zinit light peterhurford/git-aliases.zsh
 
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting
