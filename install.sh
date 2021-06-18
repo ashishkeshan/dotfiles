@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 
+exec > >(tee -i $HOME/dotfiles_install.log)
 git config --global user.name "Ashish Keshan"
 git config --global user.email "ashishkeshan@github.com"
 git config --global pager.branch false
