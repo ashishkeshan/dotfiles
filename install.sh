@@ -25,7 +25,6 @@ ln -s ~/.dotfiles/.vimrc ~/
 
 # vim plugins
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-vim +'PlugInstall --sync' +qall
 
 # zsh 
 if [ "$SHELL" != "/usr/bin/zsh" ]; then
