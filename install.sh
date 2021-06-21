@@ -2,6 +2,9 @@
 #
 
 # git config
+exec > >(tee -i $HOME/dotfiles_install.log)
+exec 2>&1
+set -x
 git config --global user.name "Ashish Keshan"
 git config --global user.email "ashishkeshan@github.com"
 git config --global core.editor vim
