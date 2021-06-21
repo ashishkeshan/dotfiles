@@ -27,7 +27,7 @@ zinit light greymd/docker-zsh-completion
 zinit snippet OMZ::plugins/extract/extract.plugin.zsh
 zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
 zinit snippet OMZ::plugins/command-not-found/command-not-found.plugin.zsh
-zinit light peterhurford/git-aliases.zsh
+zinit snippet https://github.com/peterhurford/git-aliases.zsh/blob/master/git-aliases.plugin.zsh
 
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting
@@ -38,6 +38,9 @@ zinit light knu/z
 
 zinit ice pick"async.zsh" src"pure.zsh"
 zinit light sindresorhus/pure
+
+zinit ice from"gh-r" as"program"
+zinit load derailed/k9s
 
 # Key Bindings
 [[ -n ${key[Up]} ]] && bindkey "${key[Up]}" up-line-or-search
